@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mis Datos</title>
+</head>
+<body>
+    <h1>Productos Marvel</h1>
+    <ul>
+        {% for item in data %}
+            <li>
+                <strong>Nombre:</strong> {{ item.title }}<br>
+                <strong>Precio:</strong> {{ item.price }}<br>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
