@@ -25,10 +25,6 @@ __- .env:__ Contiene el usuario y contraseña para el acceso a la base de datos.
 
 
 
-
-
-
-
 ### Información de ayuda.
 Para la elaboración del proyecto se consultó varios tutoriales y paginas con información sobre la extracción de datos,
 el almacenamiento en MongoDB y la extracción de los mismo por medio de un web server usando Python y Flask.
